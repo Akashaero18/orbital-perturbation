@@ -93,8 +93,8 @@ plt.plot(iss_times,iss_dist, label = "International Space Station (LEO)", color=
 plt.plot(hub_times,hub_dist, label = "Hubble (LEO)", color='blue', linewidth =2)
 plt.plot(goes19_times,goes19_dist, label = "GOES-19 (GEO)", color='green', linewidth =2)
 
-plt.yscale
-plt.xlabel("Elasped Time in Days", fontsize = 10)
+plt.yscale('log')
+plt.xlabel("Elapsed Time in Days", fontsize = 10)
 plt.ylabel("Distance b/w the Satellites", fontsize = 10)
 plt.title("Perturbation Comparison of Different Orbits at Different Altitudes", fontsize = 10)
 plt.grid(True,which="both",linestyle= "--",alpha = 0.5)
