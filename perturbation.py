@@ -6,9 +6,6 @@ setup_orekit_curdir()
 
 from org.orekit.propagation.analytical.tle import TLE, TLEPropagator
 from org.orekit.propagation.analytical import KeplerianPropagator
-from org.orekit.time import TimeScalesFactory
-from org.orekit.frames import FramesFactory
-import numpy as np
 import matplotlib.pyplot as plt
 import time
 
